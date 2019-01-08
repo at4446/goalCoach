@@ -1,3 +1,7 @@
+## Application Objective
+Created this sie project for a better undrestanding of ES6 and React-Redux.
+Any user would be able to Create user credintial and after login, personal goals can be added to a list and once it is completed it is possible to mark the goal as "complete."
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -13,9 +13,9 @@ class AddGoal extends Component {
     }
 
 addGoal(){
-
+	console.log(this.props.user.email);
 	
-	goalRef.push({email:this.props.email,title:this.state.title});
+	goalRef.push({email:this.props.user.email,title:this.state.title});
 }
     render() {
         return (
@@ -43,6 +43,6 @@ addGoal(){
 }
 
 const mapStateToProps = state => ({
-  email: state.email
+  user: state.user
 });
 export default connect(mapStateToProps, null)(AddGoal);
